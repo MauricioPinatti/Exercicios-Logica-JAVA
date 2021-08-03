@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class uri1004 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int PROD;
+
+        PROD = A * B;
+
+        System.out.println("Você digitou : " + A);
+        System.out.println("Você digitou : " + B);
+        System.out.println("PROD de A e B È: " + PROD);
+
+
+        sc.close();
+    }
+}
